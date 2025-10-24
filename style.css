@@ -1,0 +1,95 @@
+body {
+    background-color: dimgray;
+    background: black;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img{
+    width: 50px;
+    border-radius: 100px;
+}
+
+.logo h1 {
+    color: black;
+}
+
+.logo span{
+    color: chocolate;
+}
+
+.search-bar input {
+    width: 400px;
+    padding: 8px;
+}
+
+.search-bar button {
+    background: rgb(255, 149, 0);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+.links a {
+    margin: 10px;
+    color: black;
+}
+
+.links span{
+    color: red;
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: 30% 50% 20% 15%;
+}
+
+.categories {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    padding: 8px 0;
+    border-bottom: 1px solid red;
+}
+
+.banner {
+    width: 100%;
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contacts{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background: whitesmoke;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: dimgrey;
+    text-decoration-color: white;
+    text-align: top;
+}
