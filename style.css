@@ -57,6 +57,7 @@ body {
     padding: 20px;
     background-color: red;
     align-items: start;
+    margin-top: 10px;
 }
 
 /* Categories column */
@@ -149,6 +150,11 @@ body {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.promo-card:hover {
+  transform: translateY(-3px);
 }
 
 .promo-card h6 {
