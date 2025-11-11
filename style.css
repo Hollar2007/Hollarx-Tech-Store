@@ -628,6 +628,10 @@ body {
     font-size: 0.9rem;
   }
 
+  .hero style {
+    width: 100%;
+  }
+
   .btn {
     padding: 0.5rem 0.8rem;
     font-size: 12px;
